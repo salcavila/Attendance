@@ -22,12 +22,12 @@
         }
         else
         {
-            echo 'error';
+            include 'includes/errorMessage.php';
         }
     }
     else
     {
-        echo 'error';
+        include 'includes/errorMessage.php';
     }
 
     

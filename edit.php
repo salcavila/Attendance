@@ -7,7 +7,9 @@
 
         if(!isset($_GET['id']))
         {
-            echo 'error';
+            //echo 'error';
+            include 'includes/errorMessage.php';
+            header('Location: viewRecords.php');
         }
         else
         {
@@ -59,7 +61,8 @@
         <div id="emailHelp" class="form-text">We'll never share your number with anyone else.</div>
     </div>
 
-    <button type="submit" name="submit" class="btn btn-success btn-block">Save Changes</button>
+    <a href="viewRecords.php" class="btn btn-default">Back to the list</a>
+    <button type="submit" name="submit" class="btn btn-success btn">Save Changes</button>
 </form>
 <?php } ?>
 <!--Form Ends-->
