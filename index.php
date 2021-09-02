@@ -44,6 +44,11 @@
         <input type="text" class="form-control" id="phone" name="phone" placeholder="Enter phone number">
         <div id="emailHelp" class="form-text">We'll never share your number with anyone else.</div>
     </div>
+    <div class="custom-file">
+            <input type="file" accept="image/*" class="custom-file-input" id="avatar" name="avatar" >
+            <label class="custom-file-label" for="avatar">Choose File</label>
+            <small id="avatar" class="form-text text-danger">File Upload is Optional</small>
+        </div>
 
     <button type="submit" name="submit" class="btn btn-primary btn-block">Submit</button>
 </form>
